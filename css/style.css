@@ -1,0 +1,439 @@
+html, body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: white;
+    height: 100%;
+    margin: 0;
+}
+
+h1{
+    color: rgb(255, 166, 0);
+}
+
+/* Tudo que esta no cabeçalho */
+
+#Fixed{
+    background: darkorange;
+    height: 60px;
+    line-height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+}
+
+.logo {
+    text-align: center;
+    position: relative;
+    padding-top: 60px;
+    display: block;
+}
+
+/* Tudo sobre o menu */
+.menu {
+    position: relative;
+    text-align: center;
+    top: -30px;
+}
+
+.menu .current {
+    font-weight: bolder;
+}
+
+.menu ul li {
+    text-align: center;
+    width: 80px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 20px;
+}
+/* Hover - ao passar o mouse em cima */
+.menu ul li:hover {
+    font-weight: bolder;
+}
+
+.menu ul li a {
+    color:black;
+    text-decoration: none;
+}
+
+.menu ul li a:visited {
+    font-weight: bolder;
+}
+
+/* Rodapé */
+.footer{ 
+    text-align: center;
+    border-top: 3px solid black;
+    background-image: url("/img/footerimg.png");
+    position: relative;
+    bottom: -180px;
+    width: 100%;
+}
+
+.footer-div{
+    width: 27.2%;
+    height: 23px;
+    display: inline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+
+}
+/* Corpo do site (Body) */
+hr {
+    border-color: orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.meio{
+    padding-top: 20px;
+    color: rgb(255, 166, 0, 0.795);
+    text-align: center;
+    
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+}
+
+.banner h1 {
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+.textoinicial{
+    position: absolute;
+    font-size: 30px;
+    color: rgb(224, 212, 198);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+}
+.inf-contato{
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    
+}
+
+.inf-contato div{
+    color: brown;
+    display: inline-block;
+    width: 13%;
+}
+
+.inf-contato p{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.vertical{
+    display: inline-block;
+    transform: rotate(90deg);
+    width: 25px;
+}
+
+.vertical1{
+    margin-bottom: 5px;
+    display: inline-block;
+    transform: rotate(90deg);
+    width: 20px;
+}
+
+.meio button{
+    cursor: pointer;
+    border-radius: 5%;
+    width: 250px;
+    height: 50px;
+    background-color: rgba(255, 166, 0, 0.795);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.meio button:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.galeria-fotos div{
+    display: inline-block;
+}
+
+.galeria h1{
+    text-align: center;
+    color: rgb(255, 166, 0);
+}
+
+.galeria-fotos img{
+    height: 200px;
+    width: 300px;
+}
+
+ /* Cardápio */
+ body div h3{
+     color: rgb(255, 166, 0);
+     text-align: center;
+ }
+
+.pedir {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.pedir button{
+    cursor: pointer;
+    border-radius: 5%;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.pedir button img {
+    width: 25px;
+    height: 25px;
+}
+
+.pedir button:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.cardapio-img{
+    height: 733px;
+    width: 600px;
+}
+
+.centro-cardápio {
+    text-align: center;
+    background-color: #f7f7f7c5;
+}
+
+.centro {
+    text-align: center;
+}
+
+.fundo td {
+    background-color: rgb(200, 200, 200);
+    /* Negrito */
+    font-weight: bolder;
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+    font-size: 20px
+}
+
+.corpo div h2{
+    color: orange;
+}
+
+.texto1{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.formulario{
+    width: 400px;
+    display: grid;
+    padding: 30px;
+}
+
+.formulario input{
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid gray;
+}
+
+.formulario textarea{
+    border-radius: 10px;
+    border: 2px solid gray;
+    font-size: 20px;
+    height: 100px;
+}
+
+.formulario button{
+    cursor: pointer;
+    border-radius: 5%;
+    border: 0 none;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#resultado {
+    margin: 15px;
+}
+
+.error {
+    color: #ff2222;
+}
+.receitas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.receitas1{
+    background-color: whitesmoke;
+    width: 480px ;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    border-radius: 10px;
+}
+
+.receitas1 a{
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.receitas1 p{
+    color: rgb(212, 125, 12);
+}
+
+.receitas2 p{
+    color:  rgb(212, 125, 12);
+}
+
+.receitas2 a{
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.receitas2{
+    background-color: whitesmoke;
+    width: 480px ;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+    border-radius: 10px;
+}
+
+.fonte {
+    text-align: center;
+    color: orange;
+}
+
+.fonte a {
+    text-decoration: none;
+}
+.bolo1{
+    display: flex;
+    justify-content: row;
+    font-size: 25px;
+}
+.bolo{
+    border-radius: 8px;
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+}
+.sonho{
+    display: flex;
+    justify-content: row;
+    font-size: 25px;
+}
+.sonho1{
+    border-radius: 8px;
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+}
+.elemento01{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+}
+
+.element{
+    width: 300px;
+    height: 300px; 
+    background-color: whitesmoke;
+    font-size: 25px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.element img{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+.element p {
+    color: rgb(255, 145, 0);
+}
+
+.align{
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.div-receitas{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 25px;
+}
+
+.img-receitas{
+    margin: 20px;
+    border-radius: 5px;
+    width: 500px;
+    height: 400px;
+}
+
+.preço {
+    font-weight: bolder;
+}
+
+.redes-sociais {
+    width: 23px;
+    height: 23px;
+}
+.cardapio-texto{
+    font-size: 25px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.cardapio-topo{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+
+}
+.foto-cardapio{
+    width: 800px;
+    height: 350px;
+    border-radius: 25px;
+    margin: 0px;
+}
+.texto-cardapio{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 1200px;    
+    font-size: 20px;
+    text-shadow: rgb(12, 7, 1) 0.1em 0.1em 0.2em; 
+}
